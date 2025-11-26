@@ -60,8 +60,8 @@ const ShopCategory = () => {
           {images.map((imgage, idx) => (
             <div key={idx} className="upper-container flex justify-center">
               {imgage.map((img, idx) => (
-                <a href="/" className="inner-container ">
-                  <img key={idx} src={img} alt="category shopping" />
+                <a key={idx} href="/" className="inner-container ">
+                  <img src={img} alt="category shopping" />
                 </a>
               ))}
             </div>
