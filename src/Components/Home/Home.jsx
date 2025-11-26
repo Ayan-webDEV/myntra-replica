@@ -1,5 +1,4 @@
 import Hero from "./Hero";
-import Header from "./Header";
 import CaroselsCommon from "./CaroselsCommon";
 import ShopCategory from "./ShopCategory";
 
@@ -130,7 +129,6 @@ const Home = () => {
 
   return (
     <>
-      <Header />
       <Hero />
       {slideCount.map((slide, idx) => (
         <CaroselsCommon
