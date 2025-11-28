@@ -1,0 +1,12 @@
+.desktop-visible {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .not-visible {
+    display: none;
+  }
+  .desktop-visible {
+    display: block;
+  }
+}
